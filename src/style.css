@@ -10,7 +10,18 @@ body {
   width: 250px;
   border-radius: 5%;
   position: relative;
+  padding: 1%;
+  top: 5px;
+}
+
+.borde {
+  width: 270px;
+  height: 370px;
+  border: 5px solid black;
+  position: relative;
+  margin: auto;
   margin-top: 20%;
+  border-radius: 5%;
 }
 
 .botSimbol {

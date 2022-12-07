@@ -32,7 +32,7 @@ function cambio() {
 }
 setInterval(() => cambio(), 1000);
 
-setInterval(() => console.log("hola"), 1000);
+setInterval(() => console.log("hols"), 1000);
 
 console.log(randomNumbers());
 console.log(randomIcons());
