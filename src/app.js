@@ -32,7 +32,43 @@ function cambio() {
 }
 setInterval(() => cambio(), 1000);
 
-setInterval(() => console.log("hols"), 1000);
+function cambio1() {
+  let cambioNumero = randomNumbers();
+  document.getElementById("num1").innerHTML = cambioNumero;
+  let cambioSimbolo = randomIcons();
+  document.getElementById("topIcon1").innerHTML = cambioSimbolo;
+  document.getElementById("botIcon1").innerHTML = cambioSimbolo;
+}
+setInterval(() => cambio1(), 1000);
+
+function cambio2() {
+  let cambioNumero = randomNumbers();
+  document.getElementById("num2").innerHTML = cambioNumero;
+  let cambioSimbolo = randomIcons();
+  document.getElementById("topIcon2").innerHTML = cambioSimbolo;
+  document.getElementById("botIcon2").innerHTML = cambioSimbolo;
+}
+setInterval(() => cambio2(), 1000);
+
+function cambio3() {
+  let cambioNumero = randomNumbers();
+  document.getElementById("num3").innerHTML = cambioNumero;
+  let cambioSimbolo = randomIcons();
+  document.getElementById("topIcon3").innerHTML = cambioSimbolo;
+  document.getElementById("botIcon3").innerHTML = cambioSimbolo;
+}
+setInterval(() => cambio3(), 1000);
+
+function cambio4() {
+  let cambioNumero = randomNumbers();
+  document.getElementById("num4").innerHTML = cambioNumero;
+  let cambioSimbolo = randomIcons();
+  document.getElementById("topIcon4").innerHTML = cambioSimbolo;
+  document.getElementById("botIcon4").innerHTML = cambioSimbolo;
+}
+setInterval(() => cambio4(), 1000);
+
+setInterval(() => console.log("hola"), 1000);
 
 console.log(randomNumbers());
 console.log(randomIcons());
